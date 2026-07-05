@@ -144,6 +144,32 @@ flutter run
 6. Personalized feedback is provided to help improve handwriting.
 
 ---
+```mermaid
+flowchart TB
+
+    subgraph Desktop["ScriboGenie Desktop Application"]
+        Canvas["Handwriting Canvas (Tkinter)"]
+        Predictor["CNN Handwriting Recognition (EMNIST)"]
+        Correction["Dyslexia-Aware Correction Engine"]
+        Score["Progress & Scoring System"]
+        Audio["Text-to-Speech Feedback"]
+        WS["WebSocket Server"]
+
+        Canvas --> Predictor
+        Predictor --> Correction
+        Correction --> Score
+        Correction --> Audio
+        Correction --> WS
+    end
+
+    subgraph Mobile["Mobile Companion (PWA)"]
+        Dashboard["Progress Dashboard"]
+        Results["Predictions & Feedback"]
+    end
+
+    WS <--> Dashboard
+    WS <--> Results
+```
 
 ## Future Enhancements
 
