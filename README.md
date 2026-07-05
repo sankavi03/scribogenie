@@ -157,17 +157,3 @@ flutter run
 - Teacher and parent monitoring portal.
 
 ---
-
-## Repository Status
-
-> 🚧 ScriboGenie is currently under active development. New features and improvements are continuously being added.
-
----
-
-## Contributors
-
-**Sankavi**
-
-Computer Science Engineering Student
-
----
