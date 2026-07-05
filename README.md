@@ -54,20 +54,19 @@ Feedback to User
 
 ---
 
-## Technology Stack
+## Tech Stack
 
 | Category | Technologies |
-|----------|--------------|
-| Programming Languages | Python, Dart |
-| Mobile Development | Flutter |
-| Machine Learning | TensorFlow, Keras |
+|-----------|--------------|
+| Mobile Application | Flutter |
 | Backend | Python |
-| AI Model | Convolutional Neural Network (CNN) |
-| Hardware Support | Raspberry Pi (Planned Integration) |
-| Version Control | Git & GitHub |
+| Machine Learning | TensorFlow, Keras |
+| Handwriting Recognition | CNN |
+| UI Framework | Tkinter |
+| Communication | WebSocket |
+| Version Control | Git, GitHub |
 
 ---
-
 ## Project Structure
 
 ```
